@@ -1,0 +1,150 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 100%;
+	width: 100%;
+	background-color: #f4f4f4;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Lf {
+	width: 30%;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+}
+
+.Rt {
+	width: 60%;
+	height: 100%;
+	float: left;
+	margin-left: 10%;
+	background-color: #ccc;
+	position: relative;
+}
+
+.RtImg {
+	width: 80%;
+	height: auto;
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	margin: auto;
+	/*-webkit-transform: translate(-50px, 0);
+	-webkit-transition: transform 2s;
+	transform: translate(-50px, 0);
+	transition: transform 2s;*/
+}
+
+.HdCntr {
+	width: 70%;
+	margin: 20px auto;
+}
+
+.MnHd {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #009cff;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.MnSbHd {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.HdShwLnk a {
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+
+.HdShwLnk a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.HdShwLnk .LnkTxt {
+	font-size: 16px;
+	color: #000;
+	padding-right: 20px;
+	float: left;
+}
+
+.HdShwLnk .LnkIcn {
+	width: 24px;
+	height: 24px;
+	background:url(../images/add.png) center center no-repeat;
+	background-size: 16px;
+	float: right;
+}
+
+.HdShwLnk .LnkCls {
+	width: 24px;
+	height: 24px;
+	background:url(../images/sub.png) center center no-repeat;
+	float: right;
+}
+
+.PnlCont {
+	/*height: 0; 
+	position: absolute; 
+	left:0; 
+	top:0; 
+	z-index: 1000;*/
+	display: none;
+}
+
+.Clr {
+	clear: both;
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+  .animated {
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+
+
