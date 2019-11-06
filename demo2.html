@@ -5,36 +5,51 @@
 	<link href="Css/test.css" rel="stylesheet" type="text/css" />
 	<link href="Css/animate.css" rel="stylesheet">
 	<script type="text/javascript" src="js/wow.js"></script>
+	
+</script>
 </head>
 <body>
-	<div class="Lf">
+	<div class="Lf" style="position: relative;">
 		<div class="HdCntr">
-			<div class="MnHd">Music</div>
-			<div class="MnSbHd">An elevated music experience</div>
-			<div class="HdShwLnk" id="wrapper"><a href="#">
-				<div class="LnkTxt">Explore new artists and genres</div>
+			<div class="MnHd GrnTxt">Podcasts</div>
+			<div class="MnSbHd">Explore, listen, follow</div>
+			<div class="BrfCont">Your podcasts have a new home in Apple Podcasts. In Listen Now, catch up on favorite podcasts, or explore suggested shows. Click the play button to start listening, and click the add icon to save an episode to your library.Click a podcast to learn more about it and browse episodes.</div>
+			<div class="HdShwLnk GrnTp" id="wrapper"><a href="#">
+				<div class="LnkTxt">A more powerful search</div>
 				<div class="LnkIcn"></div>
 			</a></div>
+
 			
-			<div id="toggle_text" style="display: none;">The songs you had in iTunes are now in the Apple Music app. Look in your library to find the music you purchased from the iTunes Store or saved from Apple Music — organized by artists, albums, and songs. Click Recently Added in the sidebar to browse music you’ve added in the last week and month.</div>
-		</div><br /><br />
-		<div style="text-align: center; font-size: 16px; font-weight: bold;"><a href="demo.html" style="color: #000;">Previous Slide</a>
+			<div id="toggle_text" class="PnlCont">Now search by title, topic, guest, and host. For example, when you search for a person, you’ll see shows they host or have been a guest on, and even where they were the subject.</div>
+			<div class="Ln GrnBtm"></div>
 		</div>
-	</div>
+
+		<div class="btmNav">
+			<div class="NavBtn FltLf"><a href="demo.html"><img src="images/back.png" class="IgSz"></a></div>
+			<div class="NavBtn FltRt"><a href="demo.html"><img src="images/next.png" class="IgSz"></a></div>
+			<div class="SldDet">2 of 10</div>
+		</div>
+
+		</div>
+
+	<!-- </div> -->
 	<div class="Rt">
-		<img src="images/best.png" class="RtImg wow fadeInRight animated" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+		<img src="images/windows_hero.png"  class="RtImg wow fadeInRight animated" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
 	</div>
+	<div class="Clr"></div>
 
-	<script type = "text/javascript" src = "js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript">
-	$("#wrapper").click( function() {
-		$(".LnkIcn").toggleClass("LnkCls");
-	});
 
-	$("#wrapper").click(function() {
-		$("#toggle_text").toggle();
-	});
-	</script>
+<script type = "text/javascript" src = "js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+$("#wrapper").click( function() {
+	$(".LnkIcn").toggleClass("LnkCls");
+});
 
+$("#wrapper").click(function() {
+	$("#toggle_text").toggle();
+});
+</script>
+
+	
 </body>
 </html>

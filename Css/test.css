@@ -33,15 +33,14 @@ body {
 }
 
 .Rt {
-	width: 60%;
+	width: 75%;
 	height: 100%;
 	float: left;
-	margin-left: 10%;
 	position: relative;
 }
 
 .RtImg {
-	width: 80%;
+	width: 60%;
 	height: auto;
 	position: absolute;
 	top:0;
@@ -56,11 +55,36 @@ body {
 	margin: 150px auto;
 }
 
+.BluTxt {
+	color: #009cff;
+}
+
+.BluTp {
+	border-top:solid 1px #a1dbff;
+}
+
+.BluBtm {
+	background-color: #a1dbff;
+}
+
+.GrnTxt {
+	color: #05d600;
+}
+
+.GrnTp {
+	border-top:solid 1px #05d600;
+}
+
+.GrnBtm {
+	background-color: #05d600;
+}
+
+
+
 .MnHd {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 900;
 	font-size: 40px;
-	color: #009cff;
 	text-align: left;
 	line-height: 1.5;
 }
@@ -81,8 +105,7 @@ body {
 	text-decoration: none;
 	display: block;
 	overflow: hidden;
-	border-top:solid 1px #a1dbff;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 }
 
 .HdShwLnk a:hover {
@@ -91,10 +114,10 @@ body {
 }
 
 .HdShwLnk .LnkTxt {
-	font-size: 18px;
 	color: #494949;
 	padding-right: 20px;
 	float: left;
+	font-weight: 900;
 }
 
 .HdShwLnk .LnkIcn {
@@ -122,7 +145,6 @@ body {
 .Ln {
 	width: 100%;
 	height: 1px;
-	background-color: #a1dbff;
 }
 
 .btmNav {
@@ -159,7 +181,6 @@ body {
 
 .SldDet {
 	width: 50%;
-	font-size: 15px;
 	text-align: center;
 	margin: 0 auto;
 	line-height: 3;
@@ -168,3 +189,307 @@ body {
 .Clr {
 	clear: both;
 }
+
+@media all and (min-width:1300px) and (max-width:1633px) {
+
+.Lf {
+	width: 32%;
+}
+
+.Rt {
+	width: 68%;
+}
+
+.RtImg {
+	width: 80%;
+}
+
+}
+
+@media all and (min-width:1015px) and (max-width:1301px) {
+
+.Lf {
+	width: 35%;
+}
+
+.Rt {
+	width: 65%;
+}
+
+.RtImg {
+	width: 80%;
+}
+
+.HdCntr {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.btmNav {
+	width: 85%;
+
+}
+
+
+}
+
+@media all and (min-width:901px) and (max-width:1014px) {
+
+html {
+	height: auto;
+	width: auto;
+}
+
+body {
+	height: auto;
+	width: auto;
+	overflow-y: scroll;
+	font-size: 15px;
+}
+
+.Lf {
+	width: 100%;
+	height: auto;
+}
+
+.Rt {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.RtImg {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin: 30px auto;
+	float: none;
+}
+
+.HdCntr {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.btmNav {
+	position: relative;
+	width: 85%;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	margin: 20px auto;
+
+}
+
+
+
+
+}
+
+@media all and (min-width:769px) and (max-width:900px) {
+
+html {
+	height: auto;
+	width: auto;
+}
+
+body {
+	height: auto;
+	width: auto;
+	overflow-y: scroll;
+	font-size: 15px;
+}
+
+.Lf {
+	width: 100%;
+	height: auto;
+}
+
+.Rt {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.RtImg {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin: 30px auto;
+	float: none;
+}
+
+.HdCntr {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.btmNav {
+	position: relative;
+	width: 85%;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	margin: 20px auto;
+
+}
+
+
+}
+
+@media all and (min-width:601px) and (max-width:768px) {
+
+html {
+	height: auto;
+	width: auto;
+}
+
+body {
+	height: auto;
+	width: auto;
+	overflow-y: scroll;
+	font-size: 15px;
+}
+
+.Lf {
+	width: 100%;
+	height: auto;
+}
+
+.Rt {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.RtImg {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin: 30px auto;
+	float: none;
+}
+
+.HdCntr {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.btmNav {
+	position: relative;
+	width: 85%;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	margin: 20px auto;
+
+}
+
+
+
+}
+
+@media all and (min-width:481px) and (max-width:600px) {
+
+html {
+	height: auto;
+	width: auto;
+}
+
+body {
+	height: auto;
+	width: auto;
+	overflow-y: scroll;
+	font-size: 15px;
+}
+
+.Lf {
+	width: 100%;
+	height: auto;
+}
+
+.Rt {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.RtImg {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin: 30px auto;
+	float: none;
+}
+
+.HdCntr {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.btmNav {
+	position: relative;
+	width: 85%;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	margin: 20px auto;
+
+}
+
+
+
+}
+
+@media all and (max-width:480px) {
+
+html {
+	height: auto;
+	width: auto;
+}
+
+body {
+	height: auto;
+	width: auto;
+	overflow-y: scroll;
+	font-size: 15px;
+}
+
+.Lf {
+	width: 100%;
+	height: auto;
+}
+
+.Rt {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.RtImg {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin: 30px auto;
+	float: none;
+}
+
+.HdCntr {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.btmNav {
+	position: relative;
+	width: 85%;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	margin: 20px auto;
+
+}
+
+
+
+}
+
